@@ -11,7 +11,7 @@ pipeline {
 
       steps {
 
-        bat 'npm install'
+        sh 'npm install'
 
       }
 
@@ -21,7 +21,7 @@ pipeline {
 
       steps {
 
-        bat 'npm test'
+        sh 'npm test'
 
       }
 
